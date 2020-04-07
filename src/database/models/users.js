@@ -8,6 +8,10 @@ module.exports = (sequelize, DataTypes) => {
     {
       email: DataTypes.STRING,
       password: DataTypes.STRING,
+      isConfirmed: {
+        type: DataTypes.BOOLEAN,
+        default: false,
+      },
     },
     {}
   );

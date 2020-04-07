@@ -1,7 +1,7 @@
 import express from "express";
 import Models from "../database/models";
 import toAuthJSON from "../helpers/toAuthJSON";
-import { comparePassword } from "../helpers/jwt";
+import { comparePassword } from "../helpers/jwtHelpers";
 
 const { Users } = Models;
 const router = express.Router();
