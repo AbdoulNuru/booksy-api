@@ -20,7 +20,7 @@
   "homepage": "https://github.com/AbdoulNuru/booksy-api#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "@babel/cli": "^7.8.4",
+    "@babel/cli": "^7.18.10",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.0",
     "babel-eslint": "^10.1.0",
